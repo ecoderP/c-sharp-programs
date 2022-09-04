@@ -6,6 +6,7 @@ public class NumberGuessProgram
     {
         Random rand = new Random();
         int randNum = rand.Next(1,51);
-        Console.WriteLine(randNum);
+        int userGuess = Convert.ToInt32(Console.ReadLine());
+
     }
 }
